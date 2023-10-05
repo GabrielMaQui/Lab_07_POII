@@ -68,13 +68,5 @@ public class Producto {
 				+ ", cantidad=" + cantidad + "]";
 	}
 	
-    public static boolean contieneDescripcion(Producto producto, String descripcionBuscada) {
-        if (producto == null || descripcionBuscada == null) {
-            return false;
-        }
-        return producto.getDescripcion().toLowerCase().contains(descripcionBuscada.toLowerCase());
-    }
-	
-	
 	
 }
